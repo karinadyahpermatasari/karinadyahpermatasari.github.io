@@ -1,1 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    <title>MyHijab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d48f9a56ee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="dropdown">
+        <div class="menu">
+          <button onclick="dropDown()" class="fa fa-bars menu-icon"></button>
+          <div id="rightHeader" class="header-right">
+            <a href="#">Home</a>
+            <div class="dItem">
+              <a>Shop</a>
+              <div class="submenu">
+                <a href="#">Tunik</a>
+                <a href="#">Outer</a>
+                <a href="#">Dress</a>
+                <a href="#">Hijab</a>
+                <a href="#">Aksesoris</a>
+              </div>
+            </div>
+            <div class="dItem">
+              <a>Best Seller</a>
+              <div class="submenu">
+                <a href="#">Tunik</a>
+                <a href="#">Dress</a>
+                <a href="#">Hijab</a>
+              </div>
+            </div>
+            <a href="#">FAQ</a>
+            <a href="#">Contact</a>
+            <a href="#">Agent/Dropship Registration</a>
+          </div>
+        </div>
+      </div>
+      <div class="logo">MyHijab</div>
+      <div class="topnav">
+        <a href="#" class="active">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Shop</button>
+          <div class="dropdown-content">
+            <a href="#">Tunik</a>
+            <a href="#">Outer</a>
+            <a href="#">Dress</a>
+            <a href="#">Hijab</a>
+            <a href="#">Aksesoris</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Best Seller</button>
+          <div class="dropdown-content">
+            <a href="#">Tunik</a>
+            <a href="#">Dress </a>
+            <a href="#">Hijab</a>
+          </div>
+        </div>
+        <a href="#">FAQ</a>
+        <a href="#">Contact</a>
+        <a href="#">Agent/Dropship Registration</a>
+      </div>
+    </header>
+    <script>
+      function dropDown() {
+        document.getElementById("rightHeader").classList.toggle("show");
+      }
+      window.onclick = function (event) {
+        if (!event.target.matches('.menu-icon')) {
+          var dropdowns = document.getElementsByClassName("header-right");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+    </script>
 
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>MyHijab</h1>
+        <h2>Tampil stylish dan cantik dengan MyHijab.</h2>
+        <p>Kami menawarkan fashion hijab dan pakaian muslimah yang lengkap untuk Anda</p>
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup">
+            <span class="fa fa-envelope"></span>
+            Daftar member dengan Email</a>
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>MyHijab Collection</h2>
+        </div>
+        <div class="lessons">
+         <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://cdn.shopify.com/s/files/1/0279/9416/1249/products/hawa-dusty-pink-polka-tunic-atasan-tunik-wanita-muslim-hijabchic-3.jpg?v=1630485030">
+            </div>
+           <p class="txt-contents">Tunik</p>
+         </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://cdn.shopify.com/s/files/1/0505/4883/4497/files/Polos_Sq_Soren_400x.progressive.jpg?v=1631519115">
+            </div>
+            <p class="txt-contents">Outer</p>
+          </div>
+          <div class="lesson">
+           <div class="lesson-icon">
+              <img src="https://cdn.shopify.com/s/files/1/0505/4883/4497/products/DSCF2339_200x.jpg?v=1626070842">
+            </div>
+            <p class="txt-contents">Dress</p>
+          </div>
+         <div class="lesson">
+            <div class="lesson-icon">
+             <img src="https://cdn.shopify.com/s/files/1/0505/4883/4497/products/tvesday0437_d03446c8-10c6-4c15-923a-1c6e44f7aa69_200x.jpg?v=1628842719">
+           </div>
+           <p class="txt-contents">Hijab</p>
+          </div>
+          <div class="lesson">
+           <div class="lesson-icon">
+             <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/2/21/ba8de775-1916-4bc5-b2c8-46307d8fdfea.jpg">
+            </div>
+            <p class="txt-contents">Aksesoris</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper2">
+      <div class="container2">
+        <div class="heading2">
+          <h2>Choose Your Style!</h2>
+        </div>
+        <div class="lessons2">
+          <div class="lesson2">
+            <div class="lesson-icon2">
+              <img src="https://cdn.shopify.com/s/files/1/0505/4883/4497/t/13/assets/pf-d5eb68a7--1.png?v=1606989068">
+            </div>
+          </div>
+          <div class="lesson2">
+            <div class="lesson-icon2">
+              <img src="https://cdn.shopify.com/s/files/1/0279/9416/1249/products/Foony-Creme-Dress_02_900x.jpg?v=1634177150">
+            </div>
+          </div>
+          <div class="lesson2">
+            <div class="lesson-icon2">
+              <img src="https://dbs9nopbkp043.cloudfront.net/images/products/Sienna_Floria_Dress_16_Desember_2020_2_1608106376840.jpg">
+            </div>
+          </div>
+          <div class="lesson2">
+            <div class="lesson-icon2">
+              <img src="https://cdn.shopify.com/s/files/1/0505/4883/4497/files/Kasih_Logo_1_400x.progressive.jpg?v=1630118550">
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h3>Apakah anda tertarik dengan produk kami?</h3>
+        </div>
+        <span class="btn message">
+        <span class="fa fa-shopping-basket"></span>
+        Mulai belanja</span>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">Story</a></li>
+              <li><a href="#">T&C</a></li>
+              <li><a href="#">Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <ul> 
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Payment</a></li>
+          <li><a href="#">Return</a></li>
+          <li><a href="#">Refund</a></li>
+        </ul>  
+      </div>
+      <div class="footer-col">
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>   
+    </footer>    
+  </body>
+</html>
