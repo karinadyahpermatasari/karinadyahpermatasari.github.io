@@ -1,3 +1,6 @@
+pip install streamlit
+pip install pandas
+pip install matplotlib
 import streamlit as st
 st.write("Hello")
 st.title("this is the markdown")
