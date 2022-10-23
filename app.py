@@ -1,5 +1,3 @@
-wget https://github.com/karinadyahpermatasari/karinadyper.github.io/blob/main/requirement.txt
-pip install -r requirement.txt
 import streamlit as st
 st.write("Hello")
 st.title("this is the markdown")
