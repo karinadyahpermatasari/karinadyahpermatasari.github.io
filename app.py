@@ -14,6 +14,7 @@ st.subheader("Pertumbuhan Ekonomi Indonesia")
 
 #@title
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 bungaacuan=pd.read_excel("/content/drive/MyDrive/Colab Notebooks/TETRIS/BI-7Day-RR.xlsx")
 inflasi=pd.read_excel("/content/drive/MyDrive/Colab Notebooks/TETRIS/InflasiM.xlsx")
